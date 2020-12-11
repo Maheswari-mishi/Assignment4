@@ -1,0 +1,110 @@
+<DOCTYPE! html>
+<html>
+	<head>
+		<title>Survey form</title>
+		<style>
+			body{
+			background-color:grey;
+			}
+			#tab{
+				padding:20px 100px;
+			}
+			button{
+				background-color:green;
+				color:white;
+				padding:10px 10px;
+					
+			}
+			#sub{
+				padding:20px 20px;
+				text-align:center;
+				
+				
+			}
+			
+		</style>
+	</head>
+	<body>
+		<form method="POST" enctype="multipart/form-data">
+			<table id="tab" width="60%" align="center" bgcolor="white" >
+				<tr>
+					<td>
+						<h1>Event Satisfaction Survey</h1>
+						<p>Please take a few moments to complete this survey</p><br>
+					</td>
+				</tr>
+				
+		
+				<tr>
+					<td><p>Have you attended this event before?</p>
+						<input type="radio" name="ans" value="yes">Yes
+						<input type="radio" name="ans" value="No">No
+					</td><br>
+				</tr>
+				
+				<tr>
+					<td>
+						<table border="1">
+							<tr>
+								<th></th>
+								<th>Very satisfied</th>
+								<th>Satisfied</th>
+								<th>Neutral</th>
+								<th>Unsatisfied</th>
+								<th>Very unsatisfied</th>
+							</tr>
+							<tr>
+								<th>Over all satisfaction</th>
+								<td><input type="radio" name="ans" value="very satisfied"></td>
+								<td><input type="radio" name="ans" value="satisfied"></td>
+								<td><input type="radio" name="ans" value="Neutral"></td>
+								<td><input type="radio" name="ans" value="unsatisfied"></td>
+								<td><input type="radio" name="ans" value="very unsatisfied"></td>
+							</tr>
+							<tr>
+								<th>Location</th>
+								<td><input type="radio" name="ans" value="very satisfied"></td>
+								<td><input type="radio" name="ans" value="satisfied"></td>
+								<td><input type="radio" name="ans" value="Neutral"></td>
+								<td><input type="radio" name="ans" value="unsatisfied"></td>
+								<td><input type="radio" name="ans" value="very unsatisfied"></td>
+							</tr>
+								
+							<tr>
+								<th>Price</th>
+								<td><input type="radio" name="ans" value="very satisfied"></td>
+								<td><input type="radio" name="ans" value="satisfied"></td>
+								<td><input type="radio" name="ans" value="Neutral"></td>
+								<td><input type="radio" name="ans" value="unsatisfied"></td>
+								<td><input type="radio" name="ans" value="very unsatisfied"></td>
+							</tr>
+								
+							<tr>
+								<th>organization</th>
+								<td><input type="radio" name="ans" value="very satisfied"></td>
+								<td><input type="radio" name="ans" value="satisfied"></td>
+								<td><input type="radio" name="ans" value="Neutral"></td>
+								<td><input type="radio" name="ans" value="unsatisfied"></td>
+								<td><input type="radio" name="ans" value="very unsatisfied"></td>
+								</tr>
+						</table><br>
+					</td>
+				</tr>
+	
+	
+			<tr>
+				<td>
+					<p>How can we improve this event?</p>
+					<textarea name="taMessage" placeholder="message" rows="7" cols="70"></textarea>
+				</td>
+			</tr>
+			<tr>
+				<td id="sub"><button>Submit</button></td>
+			</tr>
+			</table>
+			
+				
+		</form>
+	
+	</body>
+</html>

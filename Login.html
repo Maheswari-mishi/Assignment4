@@ -1,0 +1,68 @@
+<DOCTYPE! html>
+<html>
+	<head>
+		<title> Login Form</title>
+		<style>
+			#head{
+				background-color:#ecf0f1;
+				text-align:center;
+				}
+				
+			input[type=text], input[type=password] {
+			width: 100%;
+			padding: 12px 20px;
+			margin: 8px 0;
+			display: inline-block;
+			border: 1px solid #ccc;
+			box-sizing: border-box;
+			}
+			
+			button{
+			background-color: blue;
+			color:white;
+			padding:12px;
+			margin: 8px 0;
+			width:100%;
+			}
+			
+			#foot{
+				background-color:#ecf0f1;
+				}
+			a{
+				color:#afabaa;
+				}
+		</style>
+		
+	</head>
+		
+	<body bgcolor="grey">
+		<form method="POST" enctype="multipart/form-data">
+			<table bgcolor="white" width="40%" align="center"cellpadding="10" cellspacing="0"> 
+				<tr id="head">
+					<td><h2>Please Login</h2></td>
+				</tr>
+				
+				<tr>
+					<td><label for="uname"><b>Username</b></label>
+						<input type="text" name="txtUsername" placeholder="Username"><br>
+						<label for="password"><b>Password</b></label>
+						<input type="password" name="papassword" placeholder="password"size="50"><br>	
+						<button type="button">Login</button><br>
+						<input type="checkbox" name="chksubjects"  value="Remember me" checked>Remember me
+					</td>
+				</tr>
+				<tr id="foot">
+					<td><a href="">Forget password<a>
+					</td>
+				</tr>
+			</table>
+		
+		
+	</form>
+	
+	</body>
+
+
+
+
+</html>

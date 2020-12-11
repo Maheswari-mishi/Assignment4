@@ -1,0 +1,91 @@
+<DOCTYPE! html>
+<html>
+	<head>
+	<title>Signup form</title>
+		<style>
+			body{
+			background-color:grey;}
+			
+			#head{
+			background-color:blue;
+			padding-top:30px;}
+			
+			#sign{
+			padding: 25px 30px;
+			}
+			
+			
+			input[type=text]{
+			padding:20px 25px;
+			margin:20px 2px;
+			border:1px solid #ccc;
+			}
+			
+			input[type=email] ,input[type=password],input[type=password]
+			{
+			width:90%;
+			padding:20px 25px;
+			margin:8px 2px;
+			border:1px solid #ccc;
+			}
+			
+			button{
+			background:blue;
+			color:white;
+			padding:15px;
+			margin:15px;
+			}
+			
+			.foot{
+			color:white;
+			padding:20px 15px;
+			text-align:center;
+			}
+					
+		</style>
+	
+	
+	</head>
+	
+	
+	
+	
+	<body>
+		<table id="head" width="50%" align="center"cellpadding="10" cellspacing="0">
+			<tr>
+				<td>
+					<form method="POST" enctype="multipart/form-data">
+		
+						<table bgcolor="white" width="80%" align="center"cellpadding="10" cellspacing="0">
+							<tr >
+								<td id="sign">
+									<h1>Sign Up</h1>
+									<p>Please fill this form to create account</p>
+								</td>
+							</tr>
+				
+							<tr>
+								<td>
+									<input type="text" name="txtfirstname" placeholder="First name">
+									<input type="text" name="txtlastname" placeholder="last name">
+								</td>
+							</tr>
+							
+							<tr><td><input type="email" name="ememail" placeholder="Email"></td></tr>
+							<tr><td><input type="password" name="papassword" placeholder="Password"></td></tr>
+							<tr><td><input type="password" name="cnfpassword" placeholder="Confirm Password"></td></tr>
+							<tr><td><input type="checkbox" name="chksubjects"  value="agree" required>I accept the<a href="">Terms of Use & Privacy policy</td></tr>
+							<tr><td><button>Sign Up</button></td></tr>
+			
+						</table>
+				
+					</form>
+				</td>
+			</tr>
+			<tr>
+				<td class="foot">Already have an account<a href="" class="foot">Login here</a></td></tr>
+		<		</td>
+			</tr>
+		</table>
+	</body>
+</html>
